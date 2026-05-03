@@ -1,4 +1,6 @@
-C64 testdelay
+# C64 testdelay
+
+<img src="images/c64-testdelay_img1.jpg" width="500">
 
 This is a simple implementation in C64 BASIC + a machine language routine of an idea I had some years ago, when the C64 Mini was released and I had just bought an original C64 breadbin on eBay (my original machine from 1982–1985 had been swapped for a C128D).
 
@@ -19,6 +21,9 @@ A machine language routine handles the timing, measuring delay in milliseconds u
 How it works
 
 Load the BASIC program and run it.
+
+[Watch a sample video](https://www.youtube.com/watch?v=q4px_UbehjI)
+
 
 You will see a blank screen with a counter (1 to 20) in the top-left corner, representing each measurement.
 
