@@ -56,7 +56,8 @@ Notes
 This project contains:
 
 * the BASIC listing (which also writes the ML routine into memory)
-* a disassembly of the machine language routine (see below)
+* a d64 disk image file with the program 
+* a disassembly of the machine language routine (withing this readme, see below)
 
 ⸻
 
