@@ -66,7 +66,8 @@ This project contains:
 * a d64 disk image file with the program 
 * a disassembly of the machine language routine (withing this readme, see below)
 
-# Please comment your best score + hardware setup \^_^/
+# Please send your best score + hardware setup \^_^/
+(see the bug/issue I opened)
 
 # Tips / buy me a coffee ^_^
 **Bolt12 LN** 
@@ -78,7 +79,8 @@ lno1zrxq8pjw7qjlm68mtp7e3yvxee4y5xrgjhhyf2fxhlphpckrvevh50u0q29vqjjqgyu80agddjw9
 
 ⸻
 
-Machine Language routine
+# Machine Language routine
+(already loaded in memory by the BASIC program)
 
 ```asm
 2000  A9 7F       LDA #$7F
