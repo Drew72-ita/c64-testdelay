@@ -27,7 +27,9 @@ Load the BASIC program and run it.
 
 You will see a blank screen with a counter (1 to 20) in the top-left corner, representing each measurement.
 
-After a random delay, a brief raster effect appears at the top of the screen. As soon as you see it, press the space bar (or joystick fire in port 2).
+After a random pause (*), a brief raster effect appears at the top of the screen. As soon as you see it, press the space bar (or joystick fire in port 2).
+
+(*) pressing (or keeping pressed) the spacebar before the graphic effect will reset the random pause.
 
 At the end of the 20 measurements:
 
