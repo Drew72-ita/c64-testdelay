@@ -54,7 +54,7 @@ Note: absolute values depend on the person (age, reflexes, gaming experience, et
 In this case:
 
 * Original C64 and C64 Ultimate are indistinguishable (within error)
-* LCD introduces ~40–50 ms delay (about 1–2 frames)
+* LCD introduces ~40–50 ms delay (about 2–3 frames)
 
 ⸻
 
