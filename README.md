@@ -14,8 +14,9 @@ So I created a program to measure reaction times across different setups. The te
 
 I lost my original measurements, but now that my Commodore 64 Ultimate (Starlight Edition :D) has arrived from the now-resurrected Commodore (we will be forever in debt, Perifractic!), I decided to revisit this 5-year-old piece of code and clean it up for a proper release into the wild world of data-obsessed nerd testers (like myself).
 
-A machine language routine handles the timing, measuring delay in milliseconds using the CPU clock (both PAL and NTSC are supported). I don’t remember all the details of this routine (the file is dated 2019), and it’s not entirely mine: I recall adapting it slightly from existing code. Apologies to the original author—once I identify the source, proper credit will be added here.
+A machine language routine handles the timing, measuring delay in milliseconds using the C64 hardware timers rather than BASIC loops, with PAL/NTSC compensation and minor modifications for this specific implementation. The routine is adapted from Hormann & Allen’s Commodore 64/128 millisecond timer(*), with some later changes of my own (I don't recall the details, I did this around 2019).
 
+<sub>(*) Hormann, C. A. and Allen, J. D. 1987. *An accurate millisecond timer for the Commodore 64 or 128*. *Behavior Research Methods, Instruments, & Computers* 19(1), 36–41. Available online at  https://link.springer.com/content/pdf/10.3758/BF03207668.pdf</sub>
 ⸻
 
 How it works
